@@ -130,6 +130,7 @@ module Suspenders
     def setup_stylesheets
       say 'Set up stylesheets'
       build :setup_stylesheets
+      build :install_bitters
     end
 
     def setup_git
